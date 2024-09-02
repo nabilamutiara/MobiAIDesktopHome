@@ -1,0 +1,1236 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.text-row {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-bottom: 5px; 
+}
+
+.textlogo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.textlogo2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.frame {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2; /* Sesuaikan line-height */
+}
+
+.frame > * {
+    margin: 0;
+    padding: 0;
+}
+
+.text1 {
+    text-decoration: none;
+    color: #040d9c;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.text2 {
+    text-decoration: none;
+    color: white;
+}
+
+.text3 {
+    text-decoration: none;
+    color: white;
+}
+
+.navbartengah{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.square {
+    position: absolute; 
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px; 
+    width: 97.5%; 
+    background: linear-gradient(to right, #040D9C, #3572EF);
+    border-radius: 14px;
+    display: flex;
+    align-items: center; 
+    padding: 0 8px; 
+    gap: 20px; 
+    z-index: 1; 
+    
+}
+
+.profil1 > * {
+    margin: 0;
+    padding: 0;
+}
+
+.profil11 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.profil12 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.profil2 {
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.profil2 img {
+    height: 40px; 
+    width: auto; 
+    object-fit: contain; 
+    border-radius: 50%;
+    
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: #040d9c;
+    position: relative; /* Pastikan container memiliki posisi relatif */
+    overflow: hidden; 
+    align-items: center; 
+    justify-content: center;
+    position: relative; /* Atur posisi relatif jika menggunakan z-index */
+    z-index: 1; /* Atur z-index untuk kontrol lapisan */
+}
+
+
+.namakamardesc11 .material-symbols-outlined, .namakamardesc12 .material-symbols-outlined {
+    color: #9c9c9c !important; 
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.logo img {
+    height: 40px; 
+    width: auto; 
+    object-fit: contain; 
+    
+}
+
+.square span {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    font-weight: 300;
+    text-align: center; 
+    
+}
+
+.text1, .text2, .text3 {
+    margin-left: 20px; 
+    justify-content: center;
+    
+}
+
+
+
+.profil {
+    background: white;
+    border-radius: 16px;
+    height: 50%;
+    color: black; 
+    padding: 10px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 10px; 
+    
+}
+
+.profil1, .profil2 {
+    color: black !important; 
+    
+}
+
+.square2 {
+    position: relative; 
+    height: 100vh; 
+    width: 100%; 
+    background-color: rgb(111, 178, 236);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0; 
+    
+}
+
+.map {
+    height: 100%; 
+    width: 60%; 
+    border-radius: 0; 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.description {
+    height: 100%;
+    width: 40%; 
+    border-radius: 0; 
+    background-color: #f6f8fa;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto; 
+    padding-top: 100px;
+    box-sizing: border-box;
+    
+}
+
+
+.desc1 {
+    background-color: #f6f8fa;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    min-height: 83px; 
+    justify-content: space-between;
+}
+
+.dot {
+    width: 70px;
+    height: 70px;
+    background-color: white; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: #040D9C;
+    font-weight: bold;
+    font-size: 30px;
+    box-sizing: border-box; 
+    flex-shrink: 0; 
+    border: 1px solid #040D9C;
+}
+
+.separatordesc1 {
+    width: 100%;
+    height: 1px; 
+    background-color: #040d9c; 
+}
+
+.namapasiendesc1 {
+    color: #040d9c;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.namakamardesc1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: row; 
+    color: rgba(0, 0, 0, 0.39);
+    background-color: f6f8fa;
+    /* gap: 30%; */
+}
+
+.namakamardesc11 {
+    text-align: left;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+}
+
+.namakamardesc12 {
+    text-align: left;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+}
+
+.iconkamar{
+    background-color: #3572EF;
+}
+
+.deskripsipasien {
+    width: 100%; 
+    height: auto; 
+    max-height: 70px; 
+    margin-left: 10px; 
+}
+
+.namapasien, .namakamar {
+    padding: 10px;
+    text-align: left;
+}
+
+.separator {
+    width: 100%;
+    height: 1px; 
+    background-color: #bbb; 
+    margin: 5px 0; 
+}
+
+.desc2 {
+    background-color: #040D9C;
+    width: 90%; 
+    margin-bottom: 10px;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    position: relative; 
+    min-height: 20px; 
+}
+
+.wheelchair-icon {
+    position: absolute; 
+    left: 20px;
+    top: 50%; 
+    transform: translateY(-50%); 
+
+}
+
+.wheelchair-icon img {
+    height: 40px; 
+    width: auto;
+}
+
+.desc3 {
+    background-color: white;
+    width: 90%; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    justify-content:space-evenly; 
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    min-height: 250px; 
+    border-style: solid;
+    border-color: #c9c9c9;
+    gap: 0px;
+}
+
+.desc3 > * {
+    margin: 0; 
+}
+
+.desc4 {
+    background-color: white;
+    width: 90%; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-between; 
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    min-height: 250px; 
+    border-style: solid;
+    border-color: #c9c9c9;
+    gap: 20px;
+    
+}
+
+.desc4 > * {
+    margin: 0; 
+}
+
+
+.desc5 {
+    background-color: white;
+    width: 90%; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-between; 
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    min-height: 250px; 
+    border-style: solid;
+    border-color: #c9c9c9;
+    gap: 20px;
+    
+}
+
+.desc5 > * {
+    margin: 0; 
+}
+
+.lokasiiden2 .desc4 {
+    height: 10px !important; 
+}
+
+.tabeliden {
+    width: 75%;
+    max-height: 400px; 
+    overflow-y: scroll; 
+}
+
+.lokasi {
+    position: relative; 
+    margin-bottom: 0px; 
+    background-color: white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    width: 100%;
+    height: 250px;
+    gap: 0px;
+    overflow: hidden; 
+}
+
+
+.lokasi::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: blur(15px); 
+    pointer-events: none; 
+}
+
+
+.lokasi1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    background-color: white;
+    width: 25%;
+}
+
+.lokasiiden {
+    position: relative; 
+    margin-bottom: 0px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    width: 100%;
+    height: 250px;
+    gap: 0px;
+    overflow: hidden; 
+}
+
+.lokasiiden2 {
+    position: relative; 
+    margin-bottom: 0px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    width: 100%;
+    height: 250px;
+    gap: 0px;
+    overflow: hidden; 
+}
+
+.identitaspasien1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    background-color: white;
+    width: 25%;
+}
+
+
+.lokasi11 {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #040d9c;
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+}
+
+.identitaspasien11 {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #040d9c;
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+}
+
+.lokasi12 {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #9c9c9c;
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+    /* padding-left: 30px; */
+}
+
+.identitaspasien12 {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #9c9c9c;
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+    /* padding-left: 30px; */
+}
+
+.identity{
+    position: relative; 
+    margin-bottom: 0px; 
+    background-color: #3572EF;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    width: 100%;
+    height: 250px;
+    gap: 0px;
+    overflow: hidden; 
+}
+
+.separatorlokasi {
+    width: 2px; 
+    background-color: #040d9c; 
+    height: 70%; 
+}
+
+.separatoriden {
+    width: 1px; 
+    background-color: #040d9c; 
+    height: 70%; 
+}
+
+.separatordesc5 {
+    width: 2px; 
+    background-color: #040d9c; 
+    height: 70%; 
+}
+
+.lokasi3 {
+    width: 100%;
+    justify-content: flex-end; 
+    display: flex;
+    background-color: white;
+}
+
+.circlelokasi {
+    width: 19px;
+    height: 19px;
+    background-color: #040d9c; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    box-sizing: border-box; 
+    flex-shrink: 0; 
+    border: 1px solid #040D9C;
+}
+
+.lokasi2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: white;
+    width: 100%;
+    height: 100%; /* Atur tinggi sesuai kebutuhan */
+    overflow-y: auto; /* Aktifkan scroll vertikal */
+    position: relative;
+    box-shadow: inset 0 -20px 20px -20px rgba(255, 255, 255, 1);
+}
+
+
+.lokasi2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; /* Atur tinggi blur sesuai keinginan */
+    pointer-events: none; /* Agar tidak mengganggu interaksi */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+.stepper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align semua elemen ke tengah */
+    position: relative;
+}
+
+.step {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Pastikan lingkaran dan garis sejajar secara vertikal */
+}
+
+.circlestepper {
+    width: 45px;
+    height: 45px;
+    background-color: #9c9c9c;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    z-index: 1; /* Pastikan lingkaran berada di atas garis */
+}
+
+.line {
+    width: 5px;
+    height: 50px; /* Atur tinggi garis agar menghubungkan dua lingkaran */
+    background-color:#9c9c9c;
+    position: absolute;
+    top: 30px; 
+    left: 20px; /* Posisikan garis tepat di bawah lingkaran */
+    z-index: 0;
+}
+
+.circlestepper1 {
+    width: 45px;
+    height: 45px;
+    background-color: #040d9c;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    z-index: 1; /* Pastikan lingkaran berada di atas garis */
+}
+
+.line1 {
+    width: 5px;
+    height: 50px; /* Atur tinggi garis agar menghubungkan dua lingkaran */
+    background-color:#040d9c;
+    position: absolute;
+    top: 30px; 
+    left: 20px; /* Posisikan garis tepat di bawah lingkaran */
+    z-index: 0;
+}
+
+.circlestepper1 .material-symbols-outlined, .circlestepper .material-symbols-outlined {
+    color: white !important; 
+}
+
+.label1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.label11 {
+    font-weight: 400;
+    color: #040d9c;
+    font-size: 20px;
+}
+
+.label12 {
+    font-weight: 400;
+    color: black;
+    font-size: 11px;
+}
+
+.label21 {
+    font-weight: 400;
+    color: #9c9c9c;
+    font-size: 20px;
+}
+
+.label22 {
+    font-weight: 400;
+    color: black;
+    font-size: 11px;
+}
+
+.iden1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.riwayatlengkap {
+    margin-top: 0px; 
+    background-color: white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100%;
+    align-items: center; 
+    
+}
+
+.riwayatlengkap11{
+    font-weight: 400;
+    font-size: 11px;
+    color: black;
+    align-items: center; 
+}
+
+.riwayatlengkap1{
+    height: 100%;
+    align-items: center; 
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 12px;
+    height: 100%;
+}
+
+/* Hide the default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+
+/* When the checkbox is checked, add a green background */
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #040d9c;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark::after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark::after {
+    left: 4.9px;
+    top: 2.8px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+.riwayatlokasi2 {
+    font-weight: 400;
+    color: black;
+    font-size: 11px;
+}
+
+.ruang {
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #040d9c;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan garis tabel */
+    
+}
+
+td {
+    width: 100%;
+    padding: 8px; /* Opsional: memberi sedikit ruang dalam sel */
+    text-align: left; /* Teks rata kiri */
+}
+
+.left-column {
+    font-weight: bold; /* Teks pada kolom kiri menjadi tebal */
+    font-size: 11px;
+    width: 50%;
+}
+
+.right-column {
+    font-weight: 400; /* Teks pada kolom kiri menjadi tebal */
+    font-size: 11px;
+    width: 50%;
+}
+
+.main-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.inner-frame {
+    flex: 1; /* Each frame will take equal space */
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Add margin to separate frames */
+}
+
+.separator {
+    width: 2px; /* Thickness of the separator line */
+    background-color: black; /* Color of the separator line */
+    height: 100%; /* Full height of the main frame */
+}
+
+.inner-frame1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.inner-frame1{
+    flex: 1; /* Each frame will take equal space */
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0; /* Add margin to separate frames */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.stepper-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 300px;
+    margin: 20px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-right: 20px;
+}
+
+.text-box {
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.framestepper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+.identitaspasien{
+    position: relative; 
+    margin-bottom: 0px; 
+    background-color: white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    width: 100%;
+    height: 250px;
+    gap: 0px;
+    overflow: hidden; 
+}
+
+.identitas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailpasien{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.namalengkap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.perawatan {
+    position: relative; 
+    margin-bottom: 0px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    width: 100%;
+    height: 250px;
+    gap: 0px;
+    overflow: hidden;
+
+}
+
+.perawatan2 {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #9c9c9c;
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+}
+
+.tenaga1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+
+.tenaga11 {
+    width: 30%;
+    height: 70%;
+    border-radius: 8px;
+    overflow: hidden; /* Penting agar gambar dan teks tidak keluar dari border-radius */
+    display: flex;
+    flex-direction: column; /* Mengatur agar gambar dan teks berada dalam satu kolom */
+}
+
+.tenaga111 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tenaga111 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gambar akan memenuhi container dengan border-radius */
+}
+
+.tenaga112 {
+    background-color: #040d9c;
+    padding: 8px; /* Menambahkan padding agar teks memiliki ruang 8px dari tepi */
+    box-sizing: border-box; /* Agar padding tidak menambah lebar elemen */
+    border-radius: 0 0 8px 8px; /* Hanya memberi border-radius pada bagian bawah */
+}
+
+.tenaga1121 {
+    font-weight: 600;
+    color: white;
+    font-size: 13px;
+}
+
+.tenaga1122 {
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+    font-size: 8px;
+}
+
+
+.desc4 .lokasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%; 
+}
+
+.namalengkap {
+    text-align: left;
+}
+
+.namalengkap2 {
+    text-align: right;
+    margin-left: auto; 
+}
+
+/*PAGE KEDUA*/
+.content-wrapper {
+    margin: 0px; /* Margin 50px di semua sisi */
+    background-color: #f6f8fa;
+    padding: 20px;
+    height: 100%;
+}
+
+.sisikiri { 
+    height: 100%;
+    width: 70%; 
+    border-radius: 0; 
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto; 
+    padding-top: 100px;
+    box-sizing: border-box;
+} 
+
+.sapaan {
+    display: flex; /* Flexbox untuk membuat elemen di dalamnya sejajar secara horizontal */
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    justify-content: space-between; /* Memberikan ruang antara elemen di dalamnya */
+    width: 100%; /* Lebar penuh */
+    height: 100px; /* Tinggi container */
+    background-color: #c7dbf0;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: row; 
+}
+
+.sapaan1 {
+    width: 60%;
+    height: 100%;
+    background-color: #bbb;
+    display: flex; 
+    align-items: center;
+    padding-left: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+}
+
+.sapaan11 {
+    width: 100%;
+    height : 50%;
+    background-color: white;
+    display: flex;
+}
+
+.sapaan12 {
+    width: 100%;
+    height : 50%;
+    background-color: white;
+    display: flex;
+}
+
+.sapaan2 {
+    width: 10%;
+    height: 100%;
+    background-color: #bbb;
+    display: flex; 
+    align-items: center;
+    padding: 0 10px;
+}
+
+.jumlahgenderusia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    background-color: #c9c9c9;
+}
+
+.jumlahpasien {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    height : 90%;
+    width: 30%;
+}
+
+.berdasarkangender {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    height : 90%;
+    width: 30%;
+}
+
+.berdasarkanusia {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    height : 90%;
+    width: 30%;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 16px 16px 16px 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.content-table th,
+.content-table td {
+    text-align: left; 
+    padding: 12px 30px; 
+}
+
+.content-table thead tr {
+    background-color: #040d9c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.perawatanakhir {
+    background-color: #9c9c9c;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex; /* Mengubah elemen menjadi flex container */
+    justify-content: center; /* Mengatur posisi horizontal ke tengah */
+    align-items: center; /* Mengatur posisi vertikal ke tengah */
+}
+
