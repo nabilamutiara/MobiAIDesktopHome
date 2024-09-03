@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative; /* Parent container to position children relative to it */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.satu {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: absolute; /* Positioning relative to .container */
+    top: 0;
+    left: 0;
+    z-index: 1; /* This ensures .satu is on top */
+}
+
+.dua {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    position: absolute; /* Positioning relative to .container */
+    top: 0;
+    left: 0;
+    z-index: 0; /* This ensures .dua is behind .satu */
+}
+
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="satu"></div>
+    <div class="dua"></div>
+</div>
+
+    
+</body>
+</html>
